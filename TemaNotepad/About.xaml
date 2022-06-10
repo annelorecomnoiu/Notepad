@@ -1,0 +1,17 @@
+﻿<Window x:Class="TemaNotepad.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TemaNotepad"
+        mc:Ignorable="d"
+        Title="About" Height="400" Width="700" Top="190" Left="370">
+    <Grid x:Name="grid" Background="CornflowerBlue" >
+        <Image HorizontalAlignment="Left" Height="181" Margin="239,10,0,0" VerticalAlignment="Top" Width="291" Source="clipart3956761.png"/>
+        <Image HorizontalAlignment="Left" Height="2" Margin="566,224,0,0" VerticalAlignment="Top" Width="10"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,204,0,0" TextWrapping="Wrap" Text="     Comnoiu Annelore" VerticalAlignment="Top" Height="79" Width="241" FontSize="23" FontFamily="Trebuchet MS" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="218,237,0,0" TextWrapping="Wrap" Text="            10LF301" VerticalAlignment="Top" Height="79" Width="241" FontSize="23" FontFamily="Trebuchet MS" FontWeight="Bold"/>
+        <TextBlock Margin="218,283,-219.4,-283.6" FontSize="22"><Hyperlink  Click="Hyperlink_Click" Foreground="Black" FontFamily="Trebuchet MS" FontWeight="Bold">Adresa de email institutionala</Hyperlink></TextBlock>
+
+    </Grid>
+</Window>
